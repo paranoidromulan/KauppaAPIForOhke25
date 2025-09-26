@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.Data.Sqlite;
 
+public record Asiakas(int id, string nimi);
 class Kauppakanta
 {
     //Tieto kantayhteyttä _connectionstring
